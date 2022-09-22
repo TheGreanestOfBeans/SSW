@@ -1,8 +1,37 @@
 body{
-    background-color: rgb(151, 151, 151);
+    background-color: black;
 }
 #Banner{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     bottom: 50%;
+    background-color:gray;
+    max-height: 150px;
+    height: 150px;
+    line-height: 150px;
+
+}
+#Banner h1{
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.Product{
+    
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    max-height: 250px;
+    height: 250px;
+    grid-row-end:auto;
+    max-width: 250px;
+    width: 250px;
+}
+
+#Prods{
+    column-gap: 2px;
+
+    text-align: center;
+    grid-template-columns:25% 25% 25%; 
+    display: grid;
 }
