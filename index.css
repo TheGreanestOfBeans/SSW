@@ -28,9 +28,12 @@ body{
     width: 250px;
 }
 
+.Product:hover{
+    opacity: 15%;
+}
 #Prods{
     column-gap: 2px;
-
+    padding: 20px;
     text-align: center;
     grid-template-columns:25% 25% 25%; 
     display: grid;
