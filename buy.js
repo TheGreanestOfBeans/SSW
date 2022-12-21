@@ -4,8 +4,7 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     console.dir(buy);
     buy.forEach(function(e){
         e.addEventListener("click", (e) => {
-            open("/assets/loc.png");
-            close();
+            alert("Pickup at the pickup location (See pickup Page)")
         });
     });
    
